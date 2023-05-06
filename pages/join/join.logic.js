@@ -60,7 +60,7 @@ const Join = ({ className }) => {
   return (
     <div id="component-join" className={`${className}`}>
       <Layout>
-        <HtmlHead title="Scrum poker - Join" />
+        <HtmlHead title="Join - The Planning Poker" />
         <h1>Join room</h1>
         <div className="component-join__content">
           <StyledInput
