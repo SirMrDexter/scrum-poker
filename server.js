@@ -12,8 +12,8 @@ const port = process.env.PORT || 3000;
   const server = http.Server(app);
 
   const allowedOrigins = process.env.NODE_ENV === 'production' ? [
-    'https://online-scrum-poker.com',
-    'https://www.online-scrum-poker.com',
+    'https://the-planning-poker.com',
+    'https://www.the-planning-poker.com',
   ] : '*';
 
   const io = socketIo(server, { cors: { origin: allowedOrigins } });

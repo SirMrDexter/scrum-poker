@@ -16,8 +16,8 @@ export default function HtmlHead({ title }) {
       <link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96" />
       <link rel="icon" href="/favicon-196x196.png" type="image/png" sizes="196x196" />
       <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-      <meta name="description" content="Scrum Poker Cards application. Scrum poker online for remote sprint plannings." />
-      <meta name="keywords" content="scrum poker, planning poker, scrum poker online, scrum poker cards, scrum, agile, sprint planning, remote sprint planning" />
+      <meta name="description" content="Planning poker for remote sprint plannings." />
+      <meta name="keywords" content="planning poker, scrum poker, sprint planning, remote sprint planning, scrum, agile" />
       <meta name="author" content="Xavier Canchal" />
       {/* <script data-ad-client="ca-pub-8058549971429775" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" /> */}
     </Head>
@@ -29,5 +29,5 @@ HtmlHead.propTypes = {
 };
 
 HtmlHead.defaultProps = {
-  title: 'Scrum Poker',
+  title: 'The Planning Poker',
 };

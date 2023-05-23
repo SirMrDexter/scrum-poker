@@ -159,7 +159,7 @@ export default function Room({ className }) {
   return (socket && room.id) ? (
     <div id="room-component" className={`${className}`}>
       <Layout>
-        <HtmlHead title="Scrum poker - Room" />
+        <HtmlHead title={`Room ${room.name} - The Planning Poker`} />
         <div className="component-room__content">
           <h1 className="component-room__title">{room.name}</h1>
           {ViewComponent}
